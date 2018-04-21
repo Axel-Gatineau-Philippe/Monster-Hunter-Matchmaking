@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" type="image/png" href="img/logoMHU.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <div id="bandeau">
+      <h1>Monster Hunter Matchmaking</h1>
+    </div>
+
+    <div id="page">
+      <div id="gauche">
+        <button id="button-equipe">Créer équipe</button>
+        <button style="display: none" id="button-retour">Retour</button>
+
+        <form id="interface-controle">
+          <input type="radio" id="radio-classique" name="radio-equipe" checked="checked"/>
+          <label for="radio-classique">Équipe classique : 2 DPS, 1 Tank, 1 Healer</label>
+          <br/><br/>
+
+          <input type="radio" id="radio-equilibre" name="radio-equipe"/>
+          <label for="radio-equilibre">Équipe équilibre : 2 Noobs, 2 Vétérans</label>
+          <br/><br/>
+
+          <input type="radio" id="radio-niveau" name="radio-equipe"/>
+          <label for="radio-niveau">Équipe par niveau : au plus 10 niveaux d'écart</label>
+          <br/><br/>
+        </form>
+      </div>
+
+      <div id="droite">
+        <div id="div-pseudo"></div>
+        <div style="display: none" id="div-equipe"></div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/Player.js"></script>
+</body>
+
+</html>

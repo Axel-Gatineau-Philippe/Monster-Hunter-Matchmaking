@@ -1,0 +1,11 @@
+
+couleur:
+
+-bandeau:#402E2A
+-bouton:#00A6A6
+-bouton survolé:#C0E4DF
+-fond d'écran:#E9E3D9
+
+Ecriture:
+
+-'Open Sans', serif;
